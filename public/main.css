@@ -375,7 +375,7 @@ body {
   }
 
 .main-container {
-    height: 97.5vh;
+    height: 99vh;
     display: flex;
     align-items: flex-end;
 }
@@ -387,4 +387,15 @@ body {
 p {
     text-align: center;
     font-size: 5rem;
+}
+
+@media only screen and (max-width: 675px) {
+  p {
+    font-size: 3rem;
+  }
+  .main-container {
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+}
 }
