@@ -1,0 +1,32 @@
+{
+  "name": "sabotagemfg.com",
+  "version": "1.0.0",
+  "description": "Website for Sabotage MFG",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eleanor-woodhouse/sabotagemfg.com.git"
+  },
+  "author": "Eleanor Woodhouse",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "eda"
+  },
+  "bugs": {
+    "url": "https://github.com/eleanor-woodhouse/sabotagemfg.com/issues"
+  },
+  "homepage": "https://github.com/eleanor-woodhouse/sabotagemfg.com#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "eslint": "7.9.0",
+    "eslint-config-eda": "0.1.4",
+    "nodemon": "^2.0.14"
+  }
+}
